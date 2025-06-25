@@ -1,0 +1,39 @@
+# 💬 Mental Health Support Chatbot
+
+This project creates a safe and empathetic chatbot using Natural Language Processing (NLP) to provide non-clinical emotional support. It is built to simulate friendly dialogue, offering users a comforting space to express their feelings.
+
+## ✅ Objective
+
+The goal of this project is to develop a chatbot that offers general mental health support without giving clinical advice. It responds in a supportive tone and avoids any conversation around crisis or diagnoses.
+
+## 🛠️ Tools & Technologies
+
+- **Python** – Main programming language  
+- **Hugging Face Transformers** – For implementing conversational AI  
+- **DialoGPT-medium (Microsoft)** – Pre-trained model for dialogue generation  
+- **NLTK & re** – Used for keyword detection and filtering sensitive content
+
+## 🧠 Methodology
+
+- **Library Setup**: Installed required NLP and utility libraries  
+- **Model Loading**: Loaded `DialoGPT-medium` from Hugging Face  
+- **Safety Filtering**: Blocked unsafe input with predefined keyword lists  
+- **Conversation Loop**: Chat continues until user types `"quit"`  
+- **Response Style**: Empathetic and general tone for emotional support
+
+## 🔐 Safety Measures
+
+- No diagnostic, emergency, or treatment responses are given  
+- Queries with risky terms (e.g., "suicide", "self-harm") are blocked  
+- Designed for non-clinical use only, promoting a safe user experience
+
+## 📈 Results
+
+- Handles emotional conversations respectfully  
+- Declines to answer unsafe or crisis-related input  
+- Shows potential for use in wellness apps or research settings
+
+## 📌 Conclusion
+
+This chatbot proves how AI can be responsibly applied in mental health contexts. While it doesn't replace professional support, it can serve as a companion tool in mental wellness platforms or educational prototypes.
+
